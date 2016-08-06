@@ -1,40 +1,30 @@
 #jumbostuff {
-  text-align: center;
+    text-align: center;
 }
-
 .jumbotron {
-  background-image: url('http://www.modernhdwallpaper.com/wp-content/uploads/2016/February/21/City/Restaurant/1920x1080/coffee-shop-hd-wallpaper-1920x1080.jpg');
-  color: rgb(255, 255, 255);
-  margin-bottom: auto;
-
+    background-image: url('http://www.modernhdwallpaper.com/wp-content/uploads/2016/February/21/City/Restaurant/1920x1080/coffee-shop-hd-wallpaper-1920x1080.jpg');
+    color: rgb(255, 255, 255);
+    margin-bottom: auto;
 }
-
 .navbar {
-  margin-bottom: 0px;
-  border-radius: 0;
+    margin-bottom: 0px;
+    border-radius: 0;
 }
-
-
-
 .thumbnail {
-  text-align: center;
-  padding: 20px;
-  margin: 10px;
-
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
 }
-
 #infotab {
-  margin: 10px;
-  padding: 10px;
-
+    margin: 10px;
+    padding: 10px;
 }
 #infotab p {
-  margin: 5px;
+    margin: 5px;
 }
 #callaction {
-  margin: 10px;
+    margin: 10px;
 }
-
 #navtabs {
-  margin: 10px;
+    margin: 10px;
 }

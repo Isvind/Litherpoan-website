@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- The above 3 meta tags *must*  come first in the head; any other head content must come *after* these tags -->
     <title>Self-made Web Project 1</title>
 
     <!-- Bootstrap -->
@@ -21,26 +21,25 @@
 </head>
 
 <body>
+  <script src="js/script.js">
+  </script>
+    <!-- navbar -->
+    <div class="navbar navbar-inverse">
+        <div class="container">
 
+            <div class="collapse navbar-collapse navbar-responsive-collapse" id="navbarcol">
+                <!-- logo img -->
+                <a href="#" class="navbar-brand"><img src="resources/logo.png" alt="" /></a>
 
+                <!-- Actual navbar -->
+                <ul class="nav navbar-nav">
 
-        <!-- navbar -->
-        <div class="navbar navbar-inverse">
-            <div class="container">
-
-                <div class="collapse navbar-collapse navbar-responsive-collapse" id="navbarcol">
-                    <!-- logo img -->
-                    <a href="#" class="navbar-brand"><img src="resources/logo.png" alt="" /></a>
-
-                    <!-- Actual navbar -->
-                    <ul class="nav navbar-nav">
-
-                        <li class="active"><a href="#">HTML</a></li>
-                        <li><a href="#">CSS</a></li>
-                        <!-- Dropdown menu -->
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                <span class="caret"></span><strong>Bootstrap</strong></a>
+                    <li class="active"><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <!-- Dropdown menu -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="caret"></span><strong>Bootstrap</strong></a>
 
                         <ul class="dropdown-menu">
                             <li><a href="#">Documentation</a></li>
@@ -53,182 +52,192 @@
                             <li><a href="#"><strong>Portfolio</strong></a></li>
                         </ul>
                         <!-- End of dropdown-menu -->
-                        </li>
-                        <!-- End of dropdown -->
+                    </li>
+                    <!-- End of dropdown -->
 
-                        <!-- search & submit -->
-                        <form class="navbar-form navbar-left">
-                          <div class="form-group">
+                    <!-- search & submit -->
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
                             <input type="text" class="form-control" placeholder="Surf dis page...">
-                          </div>
-                          <button type="submit" class="btn btn-default" name="button">Submit</button>
-                        </form>
+                        </div>
+                        <button type="submit" class="btn btn-default" name="button">Submit</button>
+                    </form>
 
-                        <!-- navbar right -->
-                        <ul class="nav navbar-nav navbar-right">
-                          <li><a href="#">Home</a></li>
-                          <li class="dropdown">
+                    <!-- navbar right -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Home</a></li>
+                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>My Account</a>
 
                             <!-- Right dropdown menu -->
                             <ul class="dropdown-menu">
-                              <li><a href="#"><span class="glyphicon glyphicon-music"></span>My Music</a></li>
-                              <li><a href="#"><span class="glyphicon glyphicon-cloud"></span>Account</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-music"></span>My Music</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-cloud"></span>Account</a></li>
 
-                              <li class="divider"></li>
+                                <li class="divider"></li>
 
-                              <li>
-                                <a href="#"><span class="glyphicon glyphicon-asterisk"></span>Sign Out</a>
-                              </li>
+                                <li>
+                                    <a href="#"><span class="glyphicon glyphicon-asterisk"></span>Sign Out</a>
+                                </li>
                             </ul>
                             <!-- End of dropdown menu -->
-                          </li>
-                          <!-- end of dropdown -->
-                        </ul>
-                        <!-- End of right nav items -->
+                        </li>
+                        <!-- end of dropdown -->
                     </ul>
-                    <!-- End of navbar items -->
-                  </div>
-                    <!-- End of navbar-collapse -->
-                </div>
-  <!-- End of nav container -->
+                    <!-- End of right nav items -->
+                </ul>
+                <!-- End of navbar items -->
             </div>
-        <!-- End of navbar default -->
+            <!-- End of navbar-collapse -->
+        </div>
+        <!-- End of nav container -->
+    </div>
+    <!-- End of navbar default -->
 
 
-        <!-- Jumbotron -->
-        <div class="jumbotron" id="jumbostuff">
-          <div class="container">
+    <!-- Jumbotron -->
+    <div class="jumbotron" id="jumbostuff">
+        <div class="container">
             <h1>Litherpoan</h1>
             <p>This is a simple Jumbotron that i actually made myself. Yay!</p>
             <p class="btn btn-danger"><a href="#">Click to learn more...</a></p>
-          </div>
         </div>
-        <!-- end of jumbotron -->
+    </div>
+    <!-- end of jumbotron -->
 
 
 
-        <!-- thumbnail row 1-->
-        <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-4">
+    <!-- thumbnail row 1-->
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-4">
 
             <div class="thumbnail">
-              <img src="http://www.notempire.com/images/uploads/700_grounds-1.jpg" alt="Coffee Shop" id="coffeeimg1" class="img-circle"/>
-              <div class="caption">
-                <h3>Great Stuff Here.</h3>
-                  <p>
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                  </p>
-              </div>
-              <!-- end of caption -->
+                <img src="http://www.notempire.com/images/uploads/700_grounds-1.jpg" alt="Coffee Shop" id="coffeeimg1" class="img-circle" />
+                <div class="caption">
+                    <h3>Great Stuff Here.</h3>
+                    <p>
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    </p>
+                </div>
+                <!-- end of caption -->
             </div>
             <!-- end of thumbnail -->
-          </div>
-          <!-- end of col -->
+        </div>
+        <!-- end of col -->
 
         <!-- thumbnail row 2-->
-          <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="col-sm-6 col-md-4 col-lg-4">
 
             <div class="thumbnail">
-              <img src="http://gel.ed.ac.uk/sites/default/files/styles/landscape_breakpoints_theme_uoe_mobile_1x/public/thumbnails/image/bootstrap250x250.png?itok=pRJ7rNAz" alt="bootstrapstuff" id="coffeeimg1" class="img-circle"/>
-              <div class="caption">
-                <h3>Learning Bootstrap Framework.</h3>
-                  <p>
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                  </p>
-              </div>
-              <!-- end of caption -->
+                <img src="http://gel.ed.ac.uk/sites/default/files/styles/landscape_breakpoints_theme_uoe_mobile_1x/public/thumbnails/image/bootstrap250x250.png?itok=pRJ7rNAz" alt="bootstrapstuff" id="coffeeimg1" class="img-circle" />
+                <div class="caption">
+                    <h3>Learning Bootstrap Framework.</h3>
+                    <p>
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    </p>
+                </div>
+                <!-- end of caption -->
             </div>
             <!-- end of thumbnail -->
-          </div>
-          <!-- end of col -->
+        </div>
+        <!-- end of col -->
 
         <!-- thumbnail row 3-->
-          <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="col-sm-6 col-md-4 col-lg-4">
 
             <div class="thumbnail">
-              <img src="http://36.media.tumblr.com/5946cc367c6022971d09ff133aef9403/tumblr_ngdru6A7rv1tikxmxo1_250.jpg" alt="Coffee Shop" id="coffeeimg1" class="img-circle"/>
-              <div class="caption">
-                <h3>Great Stuff Here.</h3>
-                  <p>
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                  </p>
-              </div>
-              <!-- end of caption -->
+                <img src="http://36.media.tumblr.com/5946cc367c6022971d09ff133aef9403/tumblr_ngdru6A7rv1tikxmxo1_250.jpg" alt="Coffee Shop" id="coffeeimg1" class="img-circle" />
+                <div class="caption">
+                    <h3>Great Stuff Here.</h3>
+                    <p>
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    </p>
+                </div>
+                <!-- end of caption -->
             </div>
             <!-- end of thumbnail -->
-          </div>
-          <!-- end of col -->
-          </div>
-          <!-- end of thumbnail row -->
+        </div>
+        <!-- end of col -->
+    </div>
+    <!-- end of thumbnail row -->
 
-          <!-- Tabs n' map -->
-          <div class="row" id="infoandwell">
-            <div class="col-sm-6">
+    <!-- Tabs n' map -->
+    <div class="row" id="infoandwell">
+        <div class="col-sm-6">
 
-              <h3>Umeå & Beer.</h3>
+            <h3 class="getsizes">Umeå & Beer.</h3>
 
-              <ul class="nav nav-tabs" id="navtabs">
+            <ul class="nav nav-tabs" id="navtabs">
                 <li class="active"> <a href="#tab1" data-toggle="tab">Umeå</a> </li>
                 <li> <a href="#tab2" data-toggle="tab">Beer</a> </li>
-              </ul>
+            </ul>
 
-              <div class="tab-content" id="navtabs">
+            <div class="tab-content" id="navtabs">
                 <div class="tab-pane active" id="tab1">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56315.09677985007!2d20.17175100071137!3d63.82690692090086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467c4e1b68add7f9%3A0x4034506de8c8560!2zVW1lw6UsIFN1ZWNpYQ!5e0!3m2!1ses!2sdo!4v1470186065243" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56315.09677985007!2d20.17175100071137!3d63.82690692090086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467c4e1b68add7f9%3A0x4034506de8c8560!2zVW1lw6UsIFN1ZWNpYQ!5e0!3m2!1ses!2sdo!4v1470186065243"
+                        width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-                  <p>
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                  </p>
+                    <p>
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                        gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    </p>
                 </div>
                 <!-- End of tab-pane active tab1-->
                 <div class="tab-pane" id="tab2">
-                  <img src="http://www.my-corporategifts.com/images/P/Hotties-Drink-Beer-Neoprene-Beer-Bottle-Epicoozie.jpg" alt="Beer Bottle" class="img-circle"/>
-                  <p>
-                      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                  </p>
+                    <img src="http://www.my-corporategifts.com/images/P/Hotties-Drink-Beer-Neoprene-Beer-Bottle-Epicoozie.jpg" alt="Beer Bottle" class="img-circle" />
+                    <p>
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                        gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    </p>
                 </div>
                 <!-- End of tab2 -->
-              </div>
-              <!-- End of tab content -->
-              </div>
-              <!-- End of colsm6 -->
+            </div>
+            <!-- End of tab content -->
+        </div>
+        <!-- End of colsm6 -->
 
-              <!-- End of tab row -->
+        <!-- End of tab row -->
 
-              <!-- Start of callaction well -->
-              <h3>A simple well <small>with basic features</small></h3>
-                <div class="col-sm-6">
+        <!-- Start of callaction well -->
+        <h3>A simple well <small>with basic features</small></h3>
+        <div class="col-sm-6">
 
-                  <div class="well" id="callaction">
-                    <h3>Like this webpage? <small>Then give me money...</small></h3>
+            <div class="well" id="callaction">
+                <h3>Like this webpage? <small>Then give me money...</small></h3>
 
-                    <p>
-                      Kidding. This was a fun thing to do and i learned a bit. Not much left on the page, below there will be a bunch of stuff that i can add some JS to, as well as being able to implement more frameworks with it. Pretty cool stuff, huh?
-                    </p>
+                <p>
+                    Kidding. This was a fun thing to do and i learned a bit. Not much left on the page, below there will be a bunch of stuff that i can add some JS to, as well as being able to implement more frameworks with it. Pretty cool stuff, huh?
+                </p>
 
-                    <p>
-                      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                    </p>
+                <p>
+                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                    gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                </p>
 
-                    <p>
-                      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                    </p>
+                <p>
+                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                    gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                </p>
 
-                    <p>
-                      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                    </p>
-                    <p class="btn btn-info">Click to donate, <span id="name">friend</span>! <small>just inserted some Js in there, bitch.</small></p>
+                <p>
+                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                    gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                </p>
 
-                    <script src="js/script.js">
+                <p>
+                  There are <span class="bathavailable">number</span> here.
 
-                    </script>
-                  </div>
-                  <!-- End of well -->
-                </div>
-                <!-- end of well col 6 -->
-                </div>
-                <!-- end of info and well tab -->
+                </p>
+                <p class="btn btn-info">Click to donate, <span id="name">friend</span>! <small>just inserted some Js in there, bitch.</small></p>
+
+                <script src="js/script.js">
+                </script>
+            </div>
+            <!-- End of well -->
+        </div>
+        <!-- end of well col 6 -->
+    </div>
+    <!-- end of info and well tab -->
 
 
 
